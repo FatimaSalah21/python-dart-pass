@@ -1,0 +1,10 @@
+x=int(input("enter how many number you went :"))
+for j in range(x):
+    k=int(input("enter the number :"))
+    if k in range(0,10):
+        if k %2 == 0:
+            print("{0} is even".format(k))
+
+        else:
+            print("{0} is odd".format(k))
+            
